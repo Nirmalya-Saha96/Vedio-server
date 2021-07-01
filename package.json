@@ -1,14 +1,17 @@
 {
 	"name": "videochat",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Server for Vedio Call",
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
 		"dev": "nodemon index.js"
 	},
+	"engines": {
+		"node": "14.16.0"
+ 	 },
 	"keywords": [],
-	"author": "",
+	"author": "Nirmalya saha",
 	"license": "ISC",
 	"dependencies": {
 		"cors": "^2.8.5",
